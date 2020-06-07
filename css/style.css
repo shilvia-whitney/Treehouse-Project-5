@@ -1,0 +1,11 @@
+#lightgallery {
+    display: flex;
+}
+
+.btn {
+    padding: 16px;    
+}
+
+[class^=caption] {
+    display: none;
+}
