@@ -1,11 +1,36 @@
-#lightgallery {
+/* Main photo gallery page */
+
+.photo-gallery {
     display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
 }
 
-.btn {
-    padding: 16px;    
+.search-box input {
+    width: 500px;
+    margin: 16px;
+    padding: 10px;
+}
+
+#lightgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn img {
+    padding: 16px 30px;    
 }
 
 [class^=caption] {
     display: none;
+}
+
+/* Photo lightbox */
+
+.lb-data .lb-details {
+    padding-top: 20px;
 }
